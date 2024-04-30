@@ -17,37 +17,41 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "catalogs", "catalogs", "{24
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shoppingcarts", "shoppingcarts", "{A91C7C6E-F550-42F3-8D50-3E57798630D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Api", "src\Catalog\Catalog.Api\Catalog.Api.csproj", "{FE1C5858-20D5-4CB5-A945-2C49B5BC6331}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Api", "src\Catalog\Catalog.Api\Catalog.Api.csproj", "{FE1C5858-20D5-4CB5-A945-2C49B5BC6331}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Application", "src\Catalog\Catalog.Application\Catalog.Application.csproj", "{75933388-6DB1-4FC7-A1A0-037AE6375D2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Application", "src\Catalog\Catalog.Application\Catalog.Application.csproj", "{75933388-6DB1-4FC7-A1A0-037AE6375D2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Infrastructure", "src\Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{AE3CE650-A2DB-42D8-AC6E-3BA82CC0DB50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Infrastructure", "src\Catalog\Catalog.Infrastructure\Catalog.Infrastructure.csproj", "{AE3CE650-A2DB-42D8-AC6E-3BA82CC0DB50}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.Domain", "src\Catalog\Catalog.Domain\Catalog.Domain.csproj", "{88BDD99A-4915-472B-B12E-A0266847AB41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Catalog.Domain", "src\Catalog\Catalog.Domain\Catalog.Domain.csproj", "{88BDD99A-4915-472B-B12E-A0266847AB41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Api", "src\Discount\Discount.Api\Discount.Api.csproj", "{60BE64F4-2AAF-4319-BE1F-7142BCA219B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Api", "src\Discount\Discount.Api\Discount.Api.csproj", "{60BE64F4-2AAF-4319-BE1F-7142BCA219B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Application", "src\Discount\Discount.Application\Discount.Application.csproj", "{B2640EE2-7BD1-4905-B71D-FC3F1D6A731B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Application", "src\Discount\Discount.Application\Discount.Application.csproj", "{B2640EE2-7BD1-4905-B71D-FC3F1D6A731B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Domain", "src\Discount\Discount.Domain\Discount.Domain.csproj", "{D0D9F056-4FD1-47A9-A69E-22BB50678048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Domain", "src\Discount\Discount.Domain\Discount.Domain.csproj", "{D0D9F056-4FD1-47A9-A69E-22BB50678048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Infrastructure", "src\Discount\Discount.Infrastructure\Discount.Infrastructure.csproj", "{4EA1F4A0-6CE0-4B3D-81D7-A15E5C8A56B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.Infrastructure", "src\Discount\Discount.Infrastructure\Discount.Infrastructure.csproj", "{4EA1F4A0-6CE0-4B3D-81D7-A15E5C8A56B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Application", "src\Ordering\Ordering.Application\Ordering.Application.csproj", "{2700FE55-FF8A-497B-A719-11B5A4C420D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "src\Ordering\Ordering.Application\Ordering.Application.csproj", "{2700FE55-FF8A-497B-A719-11B5A4C420D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Infrastructure", "src\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{EAE75111-6EF7-4657-BB91-E64D5D3F365E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "src\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{EAE75111-6EF7-4657-BB91-E64D5D3F365E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Api", "src\Ordering\Ordering.Api\Ordering.Api.csproj", "{BD7DC1D5-CCB3-444E-9BED-1D60098A144A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Api", "src\Ordering\Ordering.Api\Ordering.Api.csproj", "{BD7DC1D5-CCB3-444E-9BED-1D60098A144A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ordering.Domain", "src\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{A642DC58-E9C2-44BB-B89E-6D1CC7B691B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Domain", "src\Ordering\Ordering.Domain\Ordering.Domain.csproj", "{A642DC58-E9C2-44BB-B89E-6D1CC7B691B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Domain", "src\ShoppingCart\ShoppingCart.Domain\ShoppingCart.Domain.csproj", "{ACD786B2-B0A1-40F7-ABA5-CB76C8F3B257}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart.Domain", "src\ShoppingCart\ShoppingCart.Domain\ShoppingCart.Domain.csproj", "{ACD786B2-B0A1-40F7-ABA5-CB76C8F3B257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Application", "src\ShoppingCart\ShoppingCart.Application\ShoppingCart.Application.csproj", "{D92DA903-93AB-47B8-B2D4-7741139C04B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart.Application", "src\ShoppingCart\ShoppingCart.Application\ShoppingCart.Application.csproj", "{D92DA903-93AB-47B8-B2D4-7741139C04B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Infrastructure", "src\ShoppingCart\ShoppingCart.Infrastructure\ShoppingCart.Infrastructure.csproj", "{F72220C0-931D-491E-AEBF-D53C43BA8ECD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart.Infrastructure", "src\ShoppingCart\ShoppingCart.Infrastructure\ShoppingCart.Infrastructure.csproj", "{F72220C0-931D-491E-AEBF-D53C43BA8ECD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCart.Api", "src\ShoppingCart\ShoppingCart.Api\ShoppingCart.Api.csproj", "{10E3569D-C7F3-4A64-B551-333A010F65A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShoppingCart.Api", "src\ShoppingCart\ShoppingCart.Api\ShoppingCart.Api.csproj", "{10E3569D-C7F3-4A64-B551-333A010F65A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateway.API", "ApiGateway.API", "{22974F08-D264-4C2F-9C18-D901425D37D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.API", "src\ApiGateway.API\ApiGateway.API\ApiGateway.API.csproj", "{7CDEEF9B-54F3-4B8B-9520-A95DF3A42484}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -119,6 +123,10 @@ Global
 		{10E3569D-C7F3-4A64-B551-333A010F65A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10E3569D-C7F3-4A64-B551-333A010F65A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10E3569D-C7F3-4A64-B551-333A010F65A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CDEEF9B-54F3-4B8B-9520-A95DF3A42484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CDEEF9B-54F3-4B8B-9520-A95DF3A42484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CDEEF9B-54F3-4B8B-9520-A95DF3A42484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CDEEF9B-54F3-4B8B-9520-A95DF3A42484}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -144,6 +152,8 @@ Global
 		{D92DA903-93AB-47B8-B2D4-7741139C04B7} = {A91C7C6E-F550-42F3-8D50-3E57798630D4}
 		{F72220C0-931D-491E-AEBF-D53C43BA8ECD} = {A91C7C6E-F550-42F3-8D50-3E57798630D4}
 		{10E3569D-C7F3-4A64-B551-333A010F65A5} = {A91C7C6E-F550-42F3-8D50-3E57798630D4}
+		{22974F08-D264-4C2F-9C18-D901425D37D4} = {DD458F35-52EE-42C1-A9F7-E85170F643B2}
+		{7CDEEF9B-54F3-4B8B-9520-A95DF3A42484} = {22974F08-D264-4C2F-9C18-D901425D37D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C568A8B8-BCA3-4AD2-B8FA-09E05603BA81}
