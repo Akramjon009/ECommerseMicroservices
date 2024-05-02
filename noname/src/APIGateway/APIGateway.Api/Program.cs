@@ -2,7 +2,7 @@
 using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
-namespace ApiGateway.API
+namespace APIGateway.Api
 {
     public class Program
     {
@@ -10,8 +10,9 @@ namespace ApiGateway.API
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Configuration.AddJsonFile("ocelot.json");
             // Add services to the container.
+
+            builder.Configuration.AddJsonFile("ocelot.json");
             builder.Services.AddOcelot();
 
             builder.Services.AddControllers();
@@ -29,6 +30,7 @@ namespace ApiGateway.API
             }
 
             app.UseOcelot();
+
             app.UseHttpsRedirection();
 
             app.UseAuthorization();
